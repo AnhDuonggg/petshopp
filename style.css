@@ -1,0 +1,103 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	margin: 0;font-size: 18px
+}
+body{
+	font-family: "Roboto", sans-serif;font-size:16px;color:black;marfin: 0
+}
+.banner{
+	width: 100%;min-height: 500px;position: relative
+}
+.caption{
+	width: 90%;text-align: left;position: absolute;left: 20%;top: 20%
+}
+.caption h1{
+	color:#883D1E;font-size:40px;line-height: 20px
+}
+.caption p{
+	color: #D99961;font-size:20px;line-height: 2.5px
+}
+main{
+	width: 100%;min-height: 500px
+}
+.text-do{
+	color: red
+}
+.vien{
+	border: 1px solid gray;border-radius: 10px;padding: 5px;position: relative;overflow: hidden;
+}
+.icon{
+	width: 80%;height: 45px;position:absolute;left: 10%;top:-15%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon a{
+	width: 45px;height: 45px;background-color:white;border-radius:50%;color:darkred;display: flex;justify-content: center;align-items:center;text-decoration:none
+}
+.icon a:hover{
+	background-color: darkred;color:white
+}
+.vien:hover .icon{
+	top: 40%
+}
+header{
+	width: 100%;height:60px;position: absolute;left:0;top:0;z-index:10;border-bottom: 1px solid white
+}
+.logo{
+	padding-top: 10px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu{
+	padding-top: 40px
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration:none;color:#414141;border-radius:30px
+}
+.menu ul li a:hover{
+	background-color:darkred;color:white
+}
+main{
+	width:100%;min-height: 800px
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.pt-30{
+	padding-top: 20px;
+}
+.text-do{
+	color: darkred
+}
+.vien1{
+	border: 2px solid darkred;border-radius: 30px;padding: 10px;position: relative;overflow:hidden;
+}
+#feature a{
+	text-decoration:auto; color:darkred;cursor:pointer
+}
+#feature a:hover{
+	color:white
+}
+.vien2{
+	border: 1px solid black;border-radius: 50px;padding: 10px;position: relative;overflow:hidden;
+}
+#contact{
+	width: 100%;min-height:600px;background-image:url("image/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position:center center
+}
+.shadow{
+	width: 100%;min-height:300px;border: 1px solid darkgray;box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+	padding:8px;width:100%;margin-bottom:10px
+}.w-60{
+	width: 60%;min-height: 300px;padding: 15px
+}
+#contact{
+	width: 100%;min-height:600px;background-image:url("../Image/banner3.jpg");background-repeat: no-repeat;background-size: cover;background-position:center center
+}
